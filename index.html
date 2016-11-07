@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SoundCloud</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div id="wrapper">
+  		<h1>SoundCloud</h1>
+  		<audio id="myAudio" src=></audio>
+			Song<input id="search" type="text" name="search" placeholder="Search Song">
+			<button onclick="jukebox.search();" type="button">Search</button>
+  			<button onclick="jukebox.play();" id="play" type="button" >Play Audio</button>
+			<button onclick="jukebox.pause();" type="button">Pause Song</button>
+			<button onclick="jukebox.playNext();" type="button">Play Next Song</button>
+			<h3 id="artist"></h3>
+			<h3 id="title"></h3>
+			<h3 id="description"></h3>
+			<h3 id="genre"></h3>
+ 	</div>
+</body>
+</html>

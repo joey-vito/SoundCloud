@@ -1,0 +1,10 @@
+ul img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+body {
+	background-color: grey;
+	margin-right: auto;
+	margin-left: auto;
+}
